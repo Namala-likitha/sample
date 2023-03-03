@@ -8,6 +8,11 @@ datagroup: lavanya_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+access_grant: Lavanya_1 {
+  user_attribute: lavanya
+  allowed_values: [ "complete" , "pending"]
+}
+
 persist_with: lavanya_default_datagroup
 
 

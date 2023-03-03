@@ -24,6 +24,7 @@ view: orders {
 
   dimension: status {
     type: string
+    required_access_grants: [Lavanya_1]
     sql: ${TABLE}.status ;;
   }
 
