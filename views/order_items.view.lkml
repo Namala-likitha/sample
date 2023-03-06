@@ -30,6 +30,18 @@ view: order_items {
     sql: ${TABLE}.phones ;;
   }
 
+  parameter: date_granularity {
+    type: unquoted
+    allowed_value: {
+      label: "Break down by Day"
+      value: "day"
+    }
+    allowed_value: {
+      label: "Break down by Month"
+      value: "month"
+    }
+  }
+
   dimension_group: returned {
     type: time
     timeframes: [

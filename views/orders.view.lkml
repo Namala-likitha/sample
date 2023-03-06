@@ -25,6 +25,7 @@ view: orders {
   dimension: status {
     type: string
     sql: ${TABLE}.status ;;
+    order_by_field: count
   }
 
   dimension: user_id {
