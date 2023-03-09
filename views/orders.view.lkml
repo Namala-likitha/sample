@@ -25,13 +25,17 @@ view: orders {
   dimension: status {
     type: string
     sql: ${TABLE}.status ;;
-    order_by_field: count
+    # order_by_field: count
   }
 
   dimension: user_id {
     type: number
     # hidden: yes
     sql: ${TABLE}.user_id ;;
+  }
+  measure: test {
+    sql: MAX(${created_date}) ;;
+    html: <img src="https://uploads-us-west-2.insided.com/looker-en/attachment/base64_ba683b00e5811b2a1e28212d787739e9.png" alt="" /> ;;
   }
 
   measure: count {
