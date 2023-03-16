@@ -1,6 +1,4 @@
-# Markdown
 
-Put your documentation here! Your text is rendered with [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown).
-
-Click the "Edit Source" button above to make changes.
 ### Homepage
+
+Looker is a business intelligence software and big data analytics platform that helps you explore, analyze and share real-time business analytics easily.
